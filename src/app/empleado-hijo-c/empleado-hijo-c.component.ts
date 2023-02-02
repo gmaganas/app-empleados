@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { empleado } from '../empleado.model';
+import { Empleado } from '../empleado.model';
 
 @Component({
   selector: 'app-empleado-hijo-c',
@@ -8,7 +8,7 @@ import { empleado } from '../empleado.model';
 })
 export class EmpleadoHijoCComponent implements OnInit {
 
-  @Input() empleadodelista:empleado;
+  @Input() empleadodelista:Empleado;
   @Input() indice:number
 
 
